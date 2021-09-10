@@ -1,0 +1,521 @@
+*
+{
+  box-sizing: border-box;
+  
+}
+body
+{
+  background-color: black;
+}
+
+.comming-soon
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+}
+
+.comming-soon a
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #aa0808;
+  text-align: center;
+}
+
+.social-comming-soon
+{
+  padding: 10px;
+  height: 80px;
+  display: inline-block;
+  border: 3px dotted black;
+}
+
+.social-comming-soon:hover
+{
+  border: 3px dotted #aa0808;
+}
+
+.lesport-comming-soon
+{
+  width: 150px;
+}
+.logo-comming-soon
+{
+ display: block;
+ margin: o auto;
+ text-align: center;
+
+}
+
+@media screen and (min-width: 1024px)
+{
+/**********************************************LARGE SCREEN*********************************************************/
+.main
+  {
+      width: 100%;
+      height: 100%;
+
+      margin:0 auto;
+
+  }
+
+  .container
+
+  {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr 1fr;
+    margin: 20px auto 50px auto;
+    background-image: url("images/lesya_background.png");
+    background-repeat: no-repeat;
+
+  }
+
+
+  .logo-main
+  {
+      margin-left: 5%;
+  }
+
+  .logo_main_influence
+  {
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .red_text
+  {
+    margin: 5px;
+    padding: 5px;
+    height: 40px;
+  }
+  .social
+  {
+    padding: 10px;
+    height: 100px;
+    display: block;
+    border: 3px dotted black;
+  }
+
+  .social:hover
+  {
+    border: 3px dotted #aa0808;
+  }
+
+  .video
+  {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .logo
+  {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+
+  .lesport
+  {
+    margin-top: 100px;
+    width: 200px;
+  }
+
+  .main-page
+  {
+    
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: auto 1fr auto 1fr auto 1fr auto 1fr auto;
+
+  }
+
+  .classes-page
+  {
+    margin-top: 20px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: auto 1fr auto 1fr auto 1fr auto 1fr auto;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+
+  .nav-item img
+  {
+    border-bottom: 3px solid black;
+  }
+
+  .nav-item img:hover
+  {
+    border-bottom: 3px dotted #aa0808;
+  }
+
+  .video-small
+  {
+    display:none;
+  }
+
+  .tr_table_large
+  {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: white;
+  
+  
+  }
+
+  .tr_type
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: #aa0808;
+    height: 100px;
+    text-align: center;
+
+    
+  }
+  .time_head
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-align: center;
+    border-right: solid 1px #d9ff87;
+    border-left: solid 1px #d9ff87;
+
+    
+  }
+
+  .time_head p 
+  {
+    display: block;
+    
+  }
+  .time
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d9ff87;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    border-right: solid 1px #d9ff87;
+    border-left: solid 1px #d9ff87;
+  }
+  
+
+  .light
+  {
+    background-color: #666666;
+  }
+  .dark
+  {
+    background-color: #333333;
+  }
+  .tr_table_small
+  {
+  display: none;
+  color: white;
+  }
+
+  .lesport_small
+  {
+    display: none;
+  }
+  
+  .classes h1
+  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: #aa0808;
+  text-align: center;
+
+  }
+  .classes a 
+  {
+   color: red;
+   text-decoration: none; 
+  }
+  .classes a:hover
+  {
+    border-bottom: 3px dotted #aa0808; 
+  }
+
+
+}
+
+@media screen and (max-width: 1023px)
+/**********************************************SMALL SCREEN*********************************************************/
+
+{
+
+  .main
+  {
+      width: 100%;
+      height: 100%;
+  
+      margin:0 auto;
+  
+  }
+  
+  .container
+  
+  {
+    width: 100%;
+    display: block;
+     
+  
+  }
+  
+  
+  .logo_main img
+  {
+    margin: 20px auto;
+    
+    width: 370px;
+    display: block;
+    
+  }
+  .space
+  {
+    display: none;
+  }
+  
+  .logo_main_influence
+  {
+    display: inline-block;
+    width: 100%;
+     
+    text-align: center;
+
+  }
+  .red_text
+  {
+    height: 25px;  
+    margin: 5px ;
+    display: inline-block;
+  }
+  .red_text:last-child
+  {
+    display:block;
+    margin: 5px auto;
+
+  }
+  .social
+  {
+    padding: 5px;
+    height: 70px;
+    display: inline-block;
+    border: 3px solid black;
+  }
+
+  .social:hover
+  {
+    border: 3px dotted #aa0808;
+  }
+  
+  .video
+  {
+    display: none;
+  }
+
+  .video-small video
+  {
+    display:block;
+    margin: 5px auto;
+  }
+  
+  .logo
+  {
+    padding: 0 auto;
+    text-align: center;
+    
+ 
+  }
+  
+  .lesport
+  {
+    margin-top: 100px;
+    width: 200px;
+    display: none;
+  }
+  .lesport_small
+  {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .main-page
+  {
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto 1fr auto 1fr auto 1fr auto;
+  
+  }
+  .nav-item
+  {
+    width: 100%;
+
+  }
+  
+  .nav-item img
+  {
+    margin: 0 auto;
+    display: block;
+    
+  }
+  
+  .nav-item:hover
+  {
+    background-image: linear-gradient(to right, #333333, black , #333333);
+  }
+  .mid-space
+  {
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(to right, black , #d9ff87, black);
+  }  
+
+    .tr_table_large
+  {
+  display: none;
+  
+  color: white;
+  
+  
+  }
+
+  .tr_table_small
+  {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+
+  color: white;
+  
+  
+  }
+
+  .sub_tr_table_small
+
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+
+  }
+
+  .tr_type
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: #aa0808;
+    height: 100px;
+    text-align: center;
+    border-right: solid 1px #d9ff87;
+    border-left: solid 1px #d9ff87;
+
+    
+  }
+
+  .light p
+  {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .dark p
+  {
+    display: block;
+    margin-top: 1rem;
+  }
+
+
+  .time_head p 
+  {
+    display: block;
+    
+  }
+  .time
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d9ff87;
+    text-align: center;
+    font-weight: 400;
+    
+    border-right: solid 1px #d9ff87;
+    border-left: solid 1px #d9ff87;
+
+    
+
+  }
+  .time p 
+  {
+    font-size: 1.1em;
+  }
+
+  .time_head
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 1.4em;
+    text-align: center;
+    border-right: solid 1px #d9ff87;
+    border-left: solid 1px #d9ff87;
+
+
+    
+  }
+  
+
+  .light
+  {
+    background-color: #666666;
+  }
+  .dark
+  {
+    background-color: #333333;
+  }
+
+  .classes h1
+  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: #aa0808;
+  text-align: center;
+
+  }
+  .classes a 
+  {
+   color: red;
+   text-decoration: none; 
+  }
+  .classes a:hover
+  {
+    border-bottom: 3px dotted #aa0808; 
+  }
+
+
+}
+
+/*************************************General Code**********************************************/
+
+.zumba_article
+{
+  font-size: 1.3em;
+  color:#AAA;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
