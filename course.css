@@ -308,13 +308,22 @@ body {
   width: 100%;
   height: 600px;
   object-fit:cover;
+  
 
+}
+.hero-text
+{
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  align-items:flex-end;
+  flex-direction: column;
 }
 
 .hero h1 {
-  position: absolute;
-  top: 20%;
-  right: 5%;
+  position: relative;
+
   font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
   color: white;
   text-align: right;
@@ -328,23 +337,21 @@ body {
 }
 
 .hero h2 {
+  position: relative;
   font-family: "Bad Script", "cursive", "Courier New", Courier, monospace;
   color: #e4ff8d;
-  position: absolute;
-  top: 45%;
-  right: 5%;
+
   text-align: right;
   font-size: 1.2em;
 }
 
 .hero_logo {
-  position: absolute;
-  top: 0;
-  right: 5%;
+
   height: 200px;
 }
 .hero_button
 {
+  position: relative;
     background-color: #d81e20;
     border: 1px solid #e4ff8d;
     width: 200px;
@@ -354,9 +361,6 @@ body {
     font-size: 1.5em;
     opacity: 0.8;
     font-family: "Roboto Black", Arial, Helvetica, sans-serif;
-    position:absolute;
-    top: 36%;
-    right: 5%;
     color:#333;
     text-decoration: none;
     
