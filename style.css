@@ -1,138 +1,109 @@
-*
-{
+* {
   box-sizing: border-box;
-  
 }
-body
-{
+body {
   background-color: black;
 }
 
-.comming-soon
-{
+.comming-soon {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4em;
   color: white;
   text-align: center;
 }
 
-.comming-soon a
-{
+.comming-soon a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: #aa0808;
   text-align: center;
 }
 
-.social-comming-soon
-{
+.social-comming-soon {
   padding: 10px;
   height: 80px;
   display: inline-block;
   border: 3px dotted black;
 }
 
-.social-comming-soon:hover
-{
+.social-comming-soon:hover {
   border: 3px dotted #aa0808;
 }
 
-.lesport-comming-soon
-{
+.lesport-comming-soon {
   width: 150px;
 }
-.logo-comming-soon
-{
- display: block;
- margin: o auto;
- text-align: center;
-
+.logo-comming-soon {
+  display: block;
+  margin: o auto;
+  text-align: center;
 }
 
-@media screen and (min-width: 1024px)
-{
-/**********************************************LARGE SCREEN*********************************************************/
-.main
-  {
-      width: 100%;
-      height: 100%;
+@media screen and (min-width: 1024px) {
+  /**********************************************LARGE SCREEN*********************************************************/
+  .main {
+    width: 100%;
+    height: 100%;
 
-      margin:0 auto;
-
+    margin: 0 auto;
   }
 
-  .container
-
-  {
+  .container {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 5fr 3fr 1fr;
     margin: 20px auto 50px auto;
     background-image: url("images/lesya_background.png");
     background-repeat: no-repeat;
-
   }
 
-
-  .logo-main
-  {
-      margin-left: 5%;
+  .logo-main {
+    margin-left: 5%;
   }
 
-  .logo_main_influence
-  {
+  .logo_main_influence {
     margin-top: 20px;
     padding: 5px;
   }
-  .red_text
-  {
+  .red_text {
     margin: 5px;
     padding: 5px;
     height: 40px;
   }
-  .social
-  {
+  .social {
     padding: 10px;
     height: 100px;
     display: block;
     border: 3px dotted black;
   }
 
-  .social:hover
-  {
+  .social:hover {
     border: 3px dotted #aa0808;
   }
 
-  .video
-  {
+  .video {
     grid-column-start: 3;
     grid-column-end: 5;
   }
 
-  .logo
-  {
+  .logo {
     grid-row-start: 2;
     grid-row-end: 4;
   }
 
-  .lesport
-  {
+  .lesport {
     margin-top: 100px;
     width: 200px;
   }
 
-  .main-page
-  {
-    
+  .main-page {
     grid-column-start: 3;
     grid-column-end: 5;
     display: grid;
     grid-template-columns: auto 1fr auto 1fr auto 1fr auto 1fr auto;
-
   }
 
-  .classes-page
-  {
+  .classes-page {
     margin-top: 20px;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -140,47 +111,35 @@ body
     grid-template-columns: auto 1fr auto 1fr auto 1fr auto 1fr auto;
     width: 90%;
     margin: 0 auto;
-
   }
 
-
-  .nav-item img
-  {
+  .nav-item img {
     border-bottom: 3px solid black;
   }
 
-  .nav-item img:hover
-  {
+  .nav-item img:hover {
     border-bottom: 3px dotted #aa0808;
   }
 
-  .video-small
-  {
-    display:none;
+  .video-small {
+    display: none;
   }
 
-  .tr_table_large
-  {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  color: white;
-  
-  
+  .tr_table_large {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
   }
 
-  .tr_type
-  {
+  .tr_type {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 2em;
     color: #aa0808;
     height: 100px;
     text-align: center;
-
-    
   }
-  .time_head
-  {
+  .time_head {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: 900;
@@ -188,17 +147,12 @@ body
     text-align: center;
     border-right: solid 1px #d9ff87;
     border-left: solid 1px #d9ff87;
-
-    
   }
 
-  .time_head p 
-  {
+  .time_head p {
     display: block;
-    
   }
-  .time
-  {
+  .time {
     font-family: Arial, Helvetica, sans-serif;
     color: #d9ff87;
     text-align: center;
@@ -207,213 +161,154 @@ body
     border-right: solid 1px #d9ff87;
     border-left: solid 1px #d9ff87;
   }
-  
 
-  .light
-  {
+  .light {
     background-color: #666666;
   }
-  .dark
-  {
+  .dark {
     background-color: #333333;
   }
-  .tr_table_small
-  {
-  display: none;
-  color: white;
+  .tr_table_small {
+    display: none;
+    color: white;
   }
 
-  .lesport_small
-  {
+  .lesport_small {
     display: none;
   }
-  
-  .classes h1
-  {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  font-size: 3em;
-  color: #aa0808;
-  text-align: center;
 
+  .classes h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: #aa0808;
+    text-align: center;
   }
-  .classes a 
-  {
-   color: red;
-   text-decoration: none; 
+  .classes a {
+    color: red;
+    text-decoration: none;
   }
-  .classes a:hover
-  {
-    border-bottom: 3px dotted #aa0808; 
+  .classes a:hover {
+    border-bottom: 3px dotted #aa0808;
   }
-
-
 }
 
-@media screen and (max-width: 1023px)
-/**********************************************SMALL SCREEN*********************************************************/
+@media screen and (max-width: 1023px) /**********************************************SMALL SCREEN*********************************************************/ {
+  .main {
+    width: 100%;
+    height: 100%;
 
-{
-
-  .main
-  {
-      width: 100%;
-      height: 100%;
-  
-      margin:0 auto;
-  
+    margin: 0 auto;
   }
-  
-  .container
-  
-  {
+
+  .container {
     width: 100%;
     display: block;
-     
-  
   }
-  
-  
-  .logo_main img
-  {
+
+  .logo_main img {
     margin: 20px auto;
-    
+
     width: 370px;
     display: block;
-    
   }
-  .space
-  {
+  .space {
     display: none;
   }
-  
-  .logo_main_influence
-  {
+
+  .logo_main_influence {
     display: inline-block;
     width: 100%;
-     
-    text-align: center;
 
+    text-align: center;
   }
-  .red_text
-  {
-    height: 25px;  
-    margin: 5px ;
+  .red_text {
+    height: 25px;
+    margin: 5px;
     display: inline-block;
   }
-  .red_text:last-child
-  {
-    display:block;
+  .red_text:last-child {
+    display: block;
     margin: 5px auto;
-
   }
-  .social
-  {
+  .social {
     padding: 5px;
     height: 70px;
     display: inline-block;
     border: 3px solid black;
   }
 
-  .social:hover
-  {
+  .social:hover {
     border: 3px dotted #aa0808;
   }
-  
-  .video
-  {
+
+  .video {
     display: none;
   }
 
-  .video-small video
-  {
-    display:block;
+  .video-small video {
+    display: block;
     margin: 5px auto;
   }
-  
-  .logo
-  {
+
+  .logo {
     padding: 0 auto;
     text-align: center;
-    
- 
   }
-  
-  .lesport
-  {
+
+  .lesport {
     margin-top: 100px;
     width: 200px;
     display: none;
   }
-  .lesport_small
-  {
+  .lesport_small {
     display: block;
     margin: 0 auto;
   }
-  
-  .main-page
-  {
-    
+
+  .main-page {
     display: grid;
     grid-template-rows: auto 1fr auto 1fr auto 1fr auto 1fr auto;
-  
   }
-  .nav-item
-  {
+  .nav-item {
     width: 100%;
-
   }
-  
-  .nav-item img
-  {
+
+  .nav-item img {
     margin: 0 auto;
     display: block;
-    
   }
-  
-  .nav-item:hover
-  {
-    background-image: linear-gradient(to right, #333333, black , #333333);
+
+  .nav-item:hover {
+    background-image: linear-gradient(to right, #333333, black, #333333);
   }
-  .mid-space
-  {
+  .mid-space {
     height: 10px;
     width: 100%;
-    background-image: linear-gradient(to right, black , #d9ff87, black);
-  }  
-
-    .tr_table_large
-  {
-  display: none;
-  
-  color: white;
-  
-  
+    background-image: linear-gradient(to right, black, #d9ff87, black);
   }
 
-  .tr_table_small
-  {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: auto;
+  .tr_table_large {
+    display: none;
 
-  color: white;
-  
-  
+    color: white;
   }
 
-  .sub_tr_table_small
+  .tr_table_small {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
 
-  {
+    color: white;
+  }
+
+  .sub_tr_table_small {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-  
-
   }
 
-  .tr_type
-  {
+  .tr_type {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 1.4em;
@@ -422,48 +317,35 @@ body
     text-align: center;
     border-right: solid 1px #d9ff87;
     border-left: solid 1px #d9ff87;
-
-    
   }
 
-  .light p
-  {
+  .light p {
     display: block;
     margin-top: 1rem;
   }
 
-  .dark p
-  {
+  .dark p {
     display: block;
     margin-top: 1rem;
   }
 
-
-  .time_head p 
-  {
+  .time_head p {
     display: block;
-    
   }
-  .time
-  {
+  .time {
     font-family: Arial, Helvetica, sans-serif;
     color: #d9ff87;
     text-align: center;
     font-weight: 400;
-    
+
     border-right: solid 1px #d9ff87;
     border-left: solid 1px #d9ff87;
-
-    
-
   }
-  .time p 
-  {
+  .time p {
     font-size: 1.1em;
   }
 
-  .time_head
-  {
+  .time_head {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: 900;
@@ -471,49 +353,36 @@ body
     text-align: center;
     border-right: solid 1px #d9ff87;
     border-left: solid 1px #d9ff87;
-
-
-    
   }
-  
 
-  .light
-  {
+  .light {
     background-color: #666666;
   }
-  .dark
-  {
+  .dark {
     background-color: #333333;
   }
 
-  .classes h1
-  {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  font-size: 3em;
-  color: #aa0808;
-  text-align: center;
-
+  .classes h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: #aa0808;
+    text-align: center;
   }
-  .classes a 
-  {
-   color: red;
-   text-decoration: none; 
+  .classes a {
+    color: red;
+    text-decoration: none;
   }
-  .classes a:hover
-  {
-    border-bottom: 3px dotted #aa0808; 
+  .classes a:hover {
+    border-bottom: 3px dotted #aa0808;
   }
-
-
 }
 
 /*************************************General Code**********************************************/
 
-.zumba_article
-{
+.zumba_article {
   font-size: 1.3em;
-  color:#AAA;
+  color: #aaa;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   width: 90%;

@@ -1,0 +1,587 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px)
+{
+/**********************************************LARGE SCREEN*********************************************************/
+
+.hero_img {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: auto;
+  height: 600px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: right;
+  font-size: 2em;
+}
+
+.hero h1 span {
+  font-size: 2.5em;
+  color: #d81e20;
+  font-family: "Roboto Strong", Arial, Helvetica, sans-serif;
+}
+
+.hero h2 {
+  font-family: "Bad Script", "cursive", "Courier New", Courier, monospace;
+  color: #e4ff8d;
+  position: absolute;
+  top: 47%;
+  right: 20%;
+  text-align: right;
+}
+
+.hero_logo {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  height: 250px;
+}
+
+.hero_button
+{
+    background-color: #d81e20;
+    border: 1px solid #e4ff8d;
+    width: 200px;
+    height: 75px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    opacity: 0.8;
+    font-family: "Roboto Black", Arial, Helvetica, sans-serif;
+    position:absolute;
+    top: 41%;
+    right: 20%;
+    color:#333;
+    text-decoration: none;
+    
+
+}
+.hero_button:hover {
+    border: 1px solid #d81e20;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #333;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #e4ff8d;
+  opacity: 80%;
+}
+.subtitle h3 {
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: #eee;
+  margin: 0;
+  opacity: 80%;
+  font-size: 1.2em;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+}
+.subtitle img {
+  width: 70%;
+  padding: 2%;
+}
+
+.subtitle span {
+  font-size: 2em;
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #d81e20;
+  background-color: black;
+  opacity: 80%;
+}
+.start ul {
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: #eee;
+  margin: 0;
+  opacity: 80%;
+  font-size: 1.2em;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  list-style-type: none;
+  list-style-position: inside;
+}
+.start ul h2 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  text-align: right;
+  font-size: 2em;
+  list-style-position: inside;
+}
+.start img {
+  width: 70%;
+  padding: 2%;
+}
+.requirements {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #333;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #e4ff8d;
+  opacity: 80%;
+}
+.requirements h2 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  color: #eee;
+  opacity: 80%;
+  font-size: 2.5em;
+  overflow: hidden;
+  text-align: center;
+}
+.requirements ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-position: inside;
+}
+.requirements li {
+  display: block;
+  padding: 10px;
+  border: solid 1px #e4ff8d;
+  border-radius: 10px;
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: #eee;
+  font-size: 1.2em;
+  align-self: center;
+  width: 200px;
+  min-height: 250px;
+}
+
+.requirements span {
+  color: #e4ff8d;
+  font-weight: 800;
+  line-height: 1.2em;
+}
+
+.course_details {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #d81e20;
+  background-color: black;
+  opacity: 80%;
+}
+
+.course_details h2 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  color: #eee;
+  opacity: 80%;
+  font-size: 1.8em;
+  overflow: hidden;
+  text-align: center;
+}
+
+.course_details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  list-style-position: inside;
+}
+.course_details li {
+  display: block;
+  padding: 10px;
+  border: solid 1px #d81e20;
+  border-radius: 10px;
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: #eee;
+  background-color: #333;
+  font-size: 1.2em;
+  align-self: center;
+  width: 100%;
+  height: auto;
+}
+
+.fitness_list {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10% 5% 10%;
+}
+.fitness_list ol {
+  list-style-type: none;
+  width: 0%;
+  opacity: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 5%;
+ 
+}
+
+.fitness_item {
+  padding: 10px 30px 30px 10px;
+  width: 100%;
+  border-top: solid 10px #e4ff8d;
+  background-color: #333;
+}
+.fitness_item:last-child {
+    padding-left: 40px;
+}
+
+.fitness_item:last-child h3 {
+ text-align: left;
+  }
+
+.fitness_item h3 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  color: #eee;
+  opacity: 80%;
+  font-size: 1.8em;
+  text-align: center;
+
+}
+
+.fitness_item li {
+    font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.final_button 
+
+{
+    background-color: #d81e20;
+    border: 1px solid #e4ff8d;
+    width: 200px;
+    height: 75px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    opacity: 0.8;
+    font-family: "Roboto Black", Arial, Helvetica, sans-serif;
+    display:block;
+    margin: 0 auto 50px auto;
+    color:#333;
+    text-decoration: none;
+
+}
+.final_button:hover {
+    border: 1px solid #d81e20;
+}
+
+
+}
+
+@media screen and (max-width: 1023px)
+/**********************************************SMALL SCREEN*********************************************************/
+{
+
+.hero_img {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  object-fit:cover;
+
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.hero h1 span {
+  font-size: 1.8em;
+  color: #d81e20;
+  font-family: "Roboto Strong", Arial, Helvetica, sans-serif;
+}
+
+.hero h2 {
+  font-family: "Bad Script", "cursive", "Courier New", Courier, monospace;
+  color: #e4ff8d;
+  position: absolute;
+  top: 45%;
+  right: 5%;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.hero_logo {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  height: 200px;
+}
+.hero_button
+{
+    background-color: #d81e20;
+    border: 1px solid #e4ff8d;
+    width: 200px;
+    height: 75px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    opacity: 0.8;
+    font-family: "Roboto Black", Arial, Helvetica, sans-serif;
+    position:absolute;
+    top: 36%;
+    right: 5%;
+    color:#333;
+    text-decoration: none;
+    
+
+}
+.hero_button:hover {
+    border: 1px solid #d81e20;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #333;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #e4ff8d;
+  opacity: 80%;
+}
+.subtitle h3 {
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: #eee;
+  margin: 0;
+  opacity: 80%;
+  font-size: 1.2em;
+  overflow: hidden;
+  text-align: justify;
+
+}
+.subtitle img {
+  width: 100%;
+  }
+
+.subtitle span {
+  font-size: 2em;
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.start {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #d81e20;
+  background-color: black;
+  opacity: 80%;
+}
+.start ul {
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: #eee;
+  padding: 0;
+  opacity: 80%;
+  font-size: 1.2em;
+  overflow: hidden;
+  text-align: justify;
+  list-style-type: none;
+  list-style-position: inside;
+}
+.start ul h2 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+.start img {
+  width: 100%;
+
+}
+.requirements {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #333;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #e4ff8d;
+  opacity: 80%;
+}
+.requirements h2 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  color: #eee;
+  opacity: 80%;
+  font-size: 2.5em;
+  overflow: hidden;
+  text-align: center;
+}
+.requirements ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-position: inside;
+  padding: 0;
+}
+.requirements li {
+  display: block;
+  padding: 10px;
+  border: solid 1px #e4ff8d;
+  border-radius: 10px;
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: #eee;
+  font-size: 1.2em;
+  align-self: center;
+  width: 90%;
+  min-height: 150px;
+}
+
+.requirements span {
+  color: #e4ff8d;
+  font-weight: 800;
+  line-height: 1.2em;
+}
+
+.course_details {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5% 10% 5% 10%;
+  border-top: solid 20px #d81e20;
+  background-color: black;
+  opacity: 80%;
+}
+
+.course_details h2 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  color: #eee;
+  opacity: 80%;
+  font-size: 1.8em;
+  overflow: hidden;
+  text-align: center;
+}
+
+.course_details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  list-style-position: inside;
+  padding: 0;
+}
+.course_details li {
+  display: block;
+  padding: 10px;
+  border: solid 1px #d81e20;
+  border-radius: 10px;
+  font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+  color: #eee;
+  background-color: #333;
+  font-size: 1.2em;
+  align-self: center;
+  width: 100%;
+  height: auto;
+}
+
+.fitness_list {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10% 5% 10%;
+}
+.fitness_list ol {
+  list-style-type: none;
+  width: 0%;
+  opacity: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  
+ 
+}
+
+.fitness_item {
+  padding: 10px 30px 30px 10px;
+  width: 100%;
+  border-top: solid 10px #e4ff8d;
+  background-color: #333;
+}
+.fitness_item:last-child {
+    padding-left: 40px;
+}
+
+.fitness_item:last-child h3 {
+ text-align: left;
+  }
+
+.fitness_item h3 {
+  font-family: "Roboto Bold", Arial, Helvetica, sans-serif;
+  color: #eee;
+  opacity: 80%;
+  font-size: 1.4em;
+  text-align: center;
+
+}
+
+.fitness_item li {
+    font-family: "Roboto Thin", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.final_button 
+
+{
+    background-color: #d81e20;
+    border: 1px solid #e4ff8d;
+    width: 200px;
+    height: 75px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    opacity: 0.8;
+    font-family: "Roboto Black", Arial, Helvetica, sans-serif;
+    display:block;
+    margin: 0 auto 50px auto;
+    color:#333;
+    text-decoration: none;
+
+
+}
+.final_button:hover {
+    border: 1px solid #d81e20;
+}
+
+}
+    
